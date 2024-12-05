@@ -5,7 +5,7 @@ const word = 'parallelepipedo';
 
 // Dichiara la funzione qui.
 function countWord(word) {
-    let vocali = 0;
+    const vocali = 0;
     for (let i = 0; i < word.length; i++) {
         if ('aeiou'.includes(word[i].toLowerCase())) {
             vocali++;
