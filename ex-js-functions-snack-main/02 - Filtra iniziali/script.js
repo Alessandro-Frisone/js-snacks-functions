@@ -6,7 +6,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 function filterByLetter(namesArray, letter) {
     const filteredArray = [];
     for (let i = 0; i < namesArray.length; i++) {
-        if (namesArray[i][0] === letter) {
+        if (namesArray[i][0].toLowerCase() === letter.toLowerCase()) {
             filteredArray.push(namesArray[i]);
         }
     }
